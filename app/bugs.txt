@@ -1,0 +1,6 @@
+Controller name changed from product to products in routes.php file
+Changed loadComponent methods argument from ProductApi to ProductsApi
+Removed "return false" from ProductsApiComponent at line 25
+Rectify base api url name https://fakestoreapi.com
+CartController line 23 changed $this->request->session to $this->request->getSession
+Removed pricing.css stylesheets reference from default.php file as no such file exists
